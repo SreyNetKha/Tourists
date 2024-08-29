@@ -1,0 +1,833 @@
+
+body{
+    background-color: rgb(221, 225, 226);
+    margin: 0;
+    padding: 0;
+}
+.top-head{
+    width: 100%;
+    /* height: 65px; */
+    overflow: hidden;
+    /* background-color: blue; */
+}
+.top-head .tophead{
+    width: 825px;
+    height: 65px;
+    /* background-color: rgb(168, 105, 231); */
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px ;
+}
+.top-head .tophead .logo {
+    width: 30%;
+    height: 65px;
+    /* background-color: palevioletred; */
+    float: left;
+}
+.top-head .tophead .logo img {
+    /* width: 50px; */
+    height: 100%;
+
+}
+.top-head .tophead .h2{
+    float: left;
+    padding: 10px;
+    font-size:35px;
+    color: rgb(16, 229, 240);
+    font-family: 'Times New Roman', Times, serif;
+} 
+.top-head .tophead .adv{
+    width: 70%;
+    height: 65px;
+    background-color: rgb(191, 10, 70);
+    float: left;
+}
+.top-head .tophead .adv img{
+    width: 577px;
+    height: 100%;
+}
+.top-menu{
+    width: 100%;
+    /* height: 50px; */
+    background-color: rgb(28, 211, 252);
+}
+.top-menu .menu {
+    width: 825px;
+    overflow: hidden;
+    /* background-color: rgb(168, 105, 231); */
+    margin: auto;
+}
+.top-menu  .menu ul{
+    list-style-type: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.top-menu .menu ul li {
+    float: left;
+}
+.top-menu .menu ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 14px 13px;
+    font-size: 16px;
+    color:white;
+    transition: 0.5s;
+    font-family: "Khmer OS Kien Svay";
+    margin: 0;
+}
+.top-menu .menu ul li a:hover{
+    background: rgb(71, 110, 209);
+    color: rgb(255, 250, 250);
+    transition: 0.5s;
+}
+.container{
+    width: 100%;
+    /* height: 900px; */
+    overflow: hidden;
+    margin-top: 10px;
+    /* background-color: rgb(219, 5, 69); */
+}
+.container .container-one{
+    width: 825px;
+    overflow: hidden;
+    /* background-color: rgb(9, 9, 112); */
+    margin: auto;
+    margin-bottom: 30px;
+}
+.container .container-one .content-one {
+    width: 593px;
+    height: 300px;
+    margin-right: 7px;
+    float: left;
+}
+.container .container-one .content-one .box-1 {
+    width: 56%;
+    height: 100%;
+    background-color: yellow;
+    float: left;
+    position: relative;
+}
+.container .container-one .content-one .box-1 .box-title1 {
+    width: 90%;
+    /* background-color: rgb(23, 226, 145); */
+    position: absolute;
+    bottom: 0;
+    left: 17px; 
+    color: white;
+    z-index: 50;
+    overflow: hidden;
+}
+.container .container-one .content-one .box-1 .box-title1 h4 {
+    font-family: "Arial Black";
+    font-size: 16px;
+    /* padding: 0; */
+    margin: 4px;
+    color:white;
+    transition: 0.5s;
+}
+.container .container-one .content-one .box-1:hover .box-title1 h4 {
+    color:  rgb(13, 203, 232);
+    transition: 0.5s;
+}
+.container .container-one .content-one .box-1 .box-title1 p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 10px;
+    color: white;
+    padding-bottom: 0;
+    margin: 4px;
+    opacity: 0;
+    transition: 0.5s;
+    /* display: none; */
+}
+.container .container-one .content-one .box-1:hover .boxhover1 {
+    display: block;
+    transition: 3s !important;
+}
+.container .container-one .content-one .box-1:hover .box-title1 p {
+    opacity: 1;
+    padding-bottom: 20px;
+    transition: 0.5s;
+
+}
+.container .container-one .content-one .box-1 .boxhover1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* background-color: rgb(0, 0, 0,0.5); */
+    background-image: linear-gradient(rgba(170, 170, 170, 0.5), rgb(0, 0, 0));
+    float: left;
+    transition: 3s !important;
+    display: none;
+}
+.container .container-one .content-one .box-1 img{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.container .container-one .content-one .box-2 {
+    width: 44%;
+    height: 100%;
+    float: left;
+    background-color: rgb(14, 227, 110);
+    position: relative;
+}
+.container .container-one .content-one .box-2 .box-title2{
+    width: 90%;
+    /* height: 30px; */
+    overflow: hidden;
+    /* background-color: red; */
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 17px;
+    z-index: 50;
+}
+.container .container-one .content-one .box-2 .box-title2 h4 {
+    font-family:"Arial Black";
+    font-size: 16px;
+    margin: 4px;
+    /* padding: 4px; */
+    color: white;
+}
+.container .container-one .content-one .box-2:hover .box-title2 h4{
+    color: rgb(13, 203, 232);
+    transition: 0.5s;
+}
+.container .container-one .content-one .box-2 .box-title2 p{
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    font-size: 10px;
+    padding-bottom: 0;
+    margin: 4px;
+    opacity: 0;
+    transition: 1s;
+}
+.container .container-one .content-one .box-2:hover .boxhover2{
+    display: block;
+    transition: 3s !important;
+}
+.container .container-one .content-one .box-2:hover .box-title2 p{
+    opacity: 1;
+    transition: 1s !important;
+    padding-bottom: 20px;
+}
+.container .container-one .content-one .box-2 .boxhover2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* background-color: rgb(17, 17, 17,0.5); */
+    background-image: linear-gradient(rgba(170, 170, 170, 0.5), rgb(0, 0, 0));
+    float: left;
+    display: none;
+    transition: 3s !important;
+}
+.container .container-one .content-one .box-2 img{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.container .container-one .content-two{ 
+    width: 225px;  
+    height: 300px;
+    /* overflow: hidden; */
+    float: left;
+    /* background-color: pink; */
+} 
+.container .container-one .content-two .right-box1 {
+    width: 100%;
+    height: 48%;
+    background-color: green;
+    float: left;
+    margin-bottom: 4%;
+}
+.container .container-one .content-two .right-box1 h4{
+    position: absolute;
+    font-family: "Arial Black";
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    /* margin: 4px; */
+    color:white;
+    transition: 0.5s;
+}
+.container .container-one .content-two .right-box1 img{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.container .container-one .content-two .right-box2 {
+    width: 100%;
+    height: 49%;
+    background-color: rgb(40, 8, 218);
+    float: left;
+}
+.container .container-one .content-two .right-box2 h4{
+    position: absolute;
+    font-family: "Arial Black";
+    font-size: 16px;
+    /* padding: 0; */
+    /* margin: 0; */
+    margin: 4px;
+    color:white;
+    transition: 0.5s;
+}
+.container .container-one .content-two .right-box2 img{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.container-new{
+    width: 825px;
+    /* overflow: hidden; */
+    /* background-color: rgb(137, 209, 30); */
+    margin: auto;
+    margin-bottom: 20px;
+}
+.container-new .box-title{
+    padding: 10px 10px;
+    background:  rgb(13, 203, 232);
+    color: white;
+    font-family: "Times New Roman" ;
+    float: left;
+}
+.container-new .hr{
+    width: 100%;
+    height: 5px;
+    background:  rgb(13, 203, 232);
+    float: left;
+}
+.container-new .box-content{
+    width: 825px;
+    overflow: hidden;
+    background-color: rgb(241, 243, 238);
+    margin: auto;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 5px #938e8e;
+}
+.container-new .box-content .box-banner{ 
+    width: 100%;
+    height: 228px;
+    float: left;
+    overflow: hidden;
+    
+}
+.container-new .box-content .box-banner img{
+    width: 100%;
+}
+.container-new .box-content .box-banner .banner-text{
+    float: left;
+    width: 200px;
+    height: 228px;
+    background-color: aquamarine;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-new .box-content .smallbox{
+    width: 815px;
+    float: left;
+    height: 323px;
+    /* overflow: hidden; */
+    /* background-color: rgb(236, 97, 10); */
+    margin: 10px 5px 10px 5px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    border: 1px solid rgb(179, 179, 179); 
+}
+.container-new .box-content .smallbox .left-side{
+    float: left;
+    width: 277px;
+    overflow: hidden;
+    /* height: 100%; */
+    /* background-color: cornflowerblue; */
+}
+.container-new .box-content .smallbox .imgbox{
+    position: absolute;
+    float: left;
+    width: 250px;
+    height: 210px;
+    /* overflow: hidden; */
+    /* background-color: blue; */
+    margin: 17px 17px 18px 10px;
+    border-radius: 6px;
+}
+.container-new .box-content .smallbox .imgbox img{
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+
+}
+.container-new .box-content .smallbox .right-side{
+    float: right;
+    width: 536px;
+    height: 100%;
+    /* overflow: hidden; */
+    /* background-color: rgb(100, 237, 166); */
+}
+.container-new .box-content .smallbox .text{
+    position: relative;
+    float: left;
+    /* width: 525px; */
+    overflow: hidden;
+    /* height: 100px; */
+    /* background-color: aqua; */
+    margin: 17px 5px 10px 5px; 
+    border-radius: 6px;
+}
+.container-new .box-content .smallbox .text h3{
+    font-family:  "Arial Black";
+    font-size: 22px ;
+    margin-bottom: 2px;
+    margin-top: 0;
+    padding: 0px;
+    color: rgb(0, 72, 255);
+
+}
+.container-new .box-content .smallbox .text p , a{
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 16px;
+    color: black;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.container-new .box-content .smallbox .text .text-p{
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 16px;
+    color: black;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.container-new .box-content .smallbox .text .text-p img{
+    width: 153px;
+    height: 124px;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-new .box-content .box-left{
+    width: 540px;
+    float: left;
+    overflow: hidden;
+    margin-right: 10px;
+    /* background: rgb(165, 129, 200); */
+}
+
+.container-new .box-content .box-right{
+    width: 275px;
+    float: left;
+    /* background: rgb(221, 142, 22); */
+}
+.container-new .box-content .box-right .boxtwo {
+    width: 275px;
+    height: 69px;
+    float: left;
+    margin-bottom: 5px;
+    /* background-color: rgb(166, 157, 197); */
+}
+.container-new .box-content .box-right .boxtwo img{
+    width: 100%;
+    height: 100%;
+}
+.container-new .box-content .box{
+    width: 94%;
+    float: left;
+    /* height: 400px; */
+    overflow: hidden;
+    /* box-sizing: border-box; */
+    margin: 15px 25px;
+    /* background: rgb(165, 129, 200); */
+}
+.container-new .box-content .box .box-left1{
+    width: 35%;
+    float: left;
+    /* height: 400px; */
+    overflow: hidden;
+    /* background-color: blue; */
+}
+.container-new .box-content .box .box-left1 .box-img{
+    width: 100%;
+    float: left;
+    height: 230px;
+    /* background-color: red; */
+}
+.container-new .box-content .box .box-left1 .box-img img{
+    width: 100%;
+    height: 100%;
+}
+.container-new .box-content .box .box-left1 .text{
+    width: 262px;
+    /* height: 70px; */
+    overflow: hidden;
+    float: left;
+    background-color: rgb(0, 187, 255);
+    padding: 20px 5px;
+}
+.container-new .box-content .box .box-right1{
+    width: 485px;
+    float: left;
+    overflow: hidden;
+    margin-left: 19px;
+    /* background-color: rgb(194, 213, 15); */
+}
+.container-new .box-content .box .box-right1 .box8{
+    width: 111px;
+    /* height: 200px; */
+    overflow: hidden;
+    float: left;
+    margin-right: 10px;
+    /* background-color: pink; */
+}
+.container-new .box-content .box .box-right1 .box8 .box-img{
+    width: 111px;
+    height: 85px;
+    padding: 0;
+    margin: 0;
+    /* float: left;
+    overflow: hidden; */
+}
+.container-new .box-content .box .box-right1 .box8 .box-img img{
+    width: 100%;
+    height: 100%;
+}
+.container-new .box-content .box .box-right1 .box8 .text{
+    width: 95%; 
+    overflow: hidden;
+    padding: 3px 3px;
+    font-family: Khmer OS Siemreap;
+    font-size: 11px;
+    text-align: justify; 
+}
+.top1{
+    width: 100%;
+    background: rgb(18, 2, 2);
+    float: left;
+}
+.bodya{
+    margin-top: 20px;
+    width: 100%;
+    overflow: hidden;
+    /* background:red; */
+    float: left;
+}
+.footer{
+    margin-top: 20px;
+    width: 100%;
+    overflow: hidden;
+    background:rgb(13, 13, 14);
+    float: left;
+}
+.footer .footer-box{
+    width: 824px;
+    overflow: hidden;
+    padding: 30px 0;
+    /* background-color: rgb(217, 5, 65); */
+    margin: auto;
+}
+.footer .footer-box .left-box{
+    /* background-color: rgb(9, 229, 159); */
+    width: 226px;
+    overflow: hidden;
+    float: left;
+    margin-right: 43px; 
+}
+.footer .left-box img{
+    width: 100px;
+}
+.footer .left-box p{
+    font-family: " 'Times New Roman', Times, serif";
+    font-size: 16px;
+    margin: 0
+}
+.footer .left-box h4{
+    margin: 10px 0;
+    font-family: Khmer OS Siemreap;
+    font-size: 12px;
+}
+.footer .footer-box .middle-box{
+    /* background-color: rgb(9, 229, 159); */
+    width: 367px;
+    overflow: hidden;
+    float: left;
+    margin-right: 18px; 
+}
+.footer .middle-box p{
+    margin: 32px 0;
+    font-family: Khmer OS Siemreap;
+    font-size: 13px;
+}
+.footer .middle-box h2{
+    margin: 0;
+    font-family: Khmer OS Battambang;
+    font-size: 21px;
+}
+.footer .middle-box h4 {
+    margin: 10px 0;
+    font-family: Khmer OS Siemreap;
+    font-size: 12px;
+}
+.footer .footer-box .right-box{
+    /* background-color: rgb(9, 229, 159); */
+    width: 170px;
+    height: 200px;
+    /* overflow: hidden; */
+    float: right;
+    /* margin-right: 53px;  */
+}
+.footer .right-box h2{
+    margin: 0;
+    font-family: Khmer OS Battambang;
+    font-size: 17px;
+}
+
+.footer .footer-box h4,h2,p {
+    color: aliceblue;
+}
+
+.B-entertain{
+    width: 100%;
+    margin-top: 20px;
+    overflow: hidden;
+    /* background:red; */
+    float: left;
+}
+.B-entertain .container-entertainment{
+    width: 825px;
+    /* height: 900px; */
+    overflow: hidden;
+    /* background-color: blue; */
+    margin: auto;  
+}
+.B-entertain .container-entertainment .left-box{
+    width: 600px;
+    /* height: 200px; */
+    overflow: hidden;
+    /* background-color: rgb(230, 230, 230); */
+    float: left;
+}
+.B-entertain .container-entertainment .left-box .box-title{
+    /* width: 50px; */
+    padding: 7px ;
+    background-color: rgb(247, 65, 95);
+    float: left; 
+    font-family: Khmer OS Battambang;
+    font-size: 16px;
+    color: aliceblue;
+    
+}
+.B-entertain .container-entertainment .left-box .hr{
+    width: 100%;
+    height: 6px;
+    background-color:  rgb(247, 65, 95);
+    float: left;
+    
+}
+.B-entertain .container-entertainment .left-box .box-content{ 
+    width: 600px;
+    /* height: 900px; */
+    overflow: hidden;
+    float: left;
+    background-color: white;
+    box-shadow: 2px 2px 3px rgb(115, 112, 112, 0.3);
+}
+.B-entertain .container-entertainment .left-box .box-content .box{ 
+    width: 94%;
+    /* height: 900px; */
+    overflow: hidden;
+    margin: 16px 18px;
+    /* background-color: green; */
+}
+.B-entertain .container-entertainment .left-box .box-content .box .top-box{
+    width: 100%;
+    overflow: hidden;
+    float: left;
+}
+.B-entertain .container-entertainment .left-box .box-content .box .box1{ 
+    width: 47%;
+    /* height: 500px; */
+    overflow: hidden;
+    margin-right: 33px; 
+    float: left;
+    /* background-color: white */
+}
+.B-entertain .container-entertainment .left-box .box-content .box .box1:last-child{
+    width: 47%;
+    float: right;
+    margin: 0;
+}
+.B-entertain .container-entertainment .left-box .box-content .box img{
+    width: 100%;
+    height: 155px;
+    /* margin: auto; */
+}
+.B-entertain .container-entertainment .left-box .box-content .box p{
+    width: 100%;
+    /* height: 70px; */
+    overflow: hidden;
+    font-family:Khmer OS Battambang ;
+    font-size: 11px;
+    color: black;
+    margin:0 ;
+}
+.B-entertain .bottom-box { 
+    width: 100%;
+    /* height: 200px; */
+    overflow: hidden;
+    margin-top: 10px;
+    float: left;
+    /* background-color: antiquewhite; */
+}
+.B-entertain .bottom-box .box-img { 
+    width: 190px;
+    height: 140px;
+    background-color: aquamarine;
+    float: left;
+}
+.B-entertain .container-entertainment .left-box .box-content .box .bottom-box .box-img img { 
+    width: 100%;
+    height: 100%;
+}
+.B-entertain .bottom-box .box-p { 
+    width: 355px;
+    height: 140px;
+    /* background-color: blueviolet; */
+    float: right;
+} 
+.B-entertain .bottom-box .box-p h4 { 
+    font-family: Khmer OS Siemreap;
+    font-size: 16px;
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+.B-entertain .bottom-box .box-p .p { 
+    font-size: 12px;
+    font-family: Khmer OS Siemreap;
+    /* width: 150px;
+    height: 10px; */
+    color: gray;
+    margin: 0;
+}
+.B-entertain .bottom-box .box-p hr { 
+    margin: 0;
+    background-color: gray;
+}   
+.B-entertain .bottom-box .box-p .text { 
+    font-family: Khmer OS Siemreap;
+    font-size: 13px;
+    margin-top: 3px;
+    overflow: hidden;
+}    
+.B-entertain .container-entertainment .right-box{
+    width: 210px;
+    /* height: 900px; */
+    overflow: hidden;
+    /* background-color: indianred; */
+    float: right;
+}  
+.B-entertain .container-entertainment .right-box .box-adver{ 
+    width: 100%;
+    height: 237px;
+    margin-top: 10px;
+    /* background-color: paleturquoise; */
+}
+.B-entertain .container-entertainment .right-box .box-adver .box-img1 { 
+    width: 100%;
+    height: 40px;
+    margin-bottom: 7px;
+}
+.B-entertain .container-entertainment .right-box .box-adver .box-img1 img{
+    width: 100%; 
+    height: 100%;
+}
+.B-entertain .container-entertainment .right-box .box-adver .box-img2 { 
+    width: 100%;
+    height: 190px;
+}
+.B-entertain .container-entertainment .right-box .box-adver .box-img2 img { 
+    width: 100%;
+    height: 100%;
+}
+.B-entertain .container-entertainment .right-box h4 { 
+    font-family: "Khmer OS Koulen";
+    font-size: 16px ;
+    margin-top: 4px;
+    color: gray;
+    margin-bottom: 0;
+}
+.B-entertain .container-entertainment .right-box hr { 
+    width: 47px;
+    border: 3px solid red;
+    border-radius: 10px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+} 
+.B-entertain .container-entertainment .right-box .right-content { 
+    width: 100%;
+    /* height: 64px; */
+    overflow: hidden;
+    /* background-color: rgb(13, 227, 227); */
+    margin-top: 10px;
+}
+.B-entertain .container-entertainment .right-box .right-content .box-img{ 
+    width: 50px;;
+    height: 60px;
+    float: left;
+    background-color: red; 
+    margin-right: 8px;
+} 
+.B-entertain .container-entertainment .right-box .right-content .box-img img{ 
+    width: 100%;
+    height: 100%;
+}
+.B-entertain .container-entertainment .right-box .right-content .right-box-p{ 
+    font-size: 11px;
+    font-family: Khmer OS Siemreap;
+    /* width: 150px;
+    height: 10px; */
+    color: gray;
+    margin: 0;
+}
+.B-entertain .container-entertainment .left-box .auto-box {
+    width: 100%;
+    height: 270px;
+    background-color: aquamarine;
+    float: left;
+}
+
+
